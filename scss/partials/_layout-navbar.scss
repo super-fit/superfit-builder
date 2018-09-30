@@ -108,6 +108,7 @@ transition: all 0.3s;
     }
     .navbar-brand {
         align-items: center;
+        margin-right: 2%;
         img {
             height: 28px;
             &.light-logo {
@@ -118,6 +119,8 @@ transition: all 0.3s;
             }
         }
     }
+    
+
     .navbar-item, .navbar-item.has-dropdown {
         &:hover {
             color: $muted-grey;
@@ -203,15 +206,7 @@ transition: all 0.3s;
                 }
             }
         }
-        .navbar-item {
-            &.has-dropdown {
-                &:hover {
-                    .navbar-link:after {
-
-                    }
-                }
-            }
-        }
+        
         .navbar-link {
             &:after {
                 font-size: 0.85rem;
@@ -265,15 +260,7 @@ transition: all 0.3s;
         .navbar-item, .navbar-link {
             color: $white;
         }
-        .navbar-item {
-            &.has-dropdown {
-                &:hover {
-                    .navbar-link:after {
-
-                    }
-                }
-            }
-        }
+        
         .navbar-link {
             &:after {
                 font-size: 0.85rem;
@@ -317,16 +304,6 @@ transition: all 0.3s;
                 }
             }
         }
-    }
-}
-
-/* ==========================================================================
-4. Shared styles
-========================================================================== */
-.navbar-wrapper {
-    //Inverted navbar colors
-    &.nav-reverse {
-
     }
 }
 
