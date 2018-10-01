@@ -1,7 +1,7 @@
 {
-    "name": "bulkit-landing",
+    "name": "superfit-build",
     "version": "0.0.1",
-    "description": "Bulkit Landing Kit 1",
+    "description": "SuperFit Build",
     "main": "Gruntfile.js",
     "devDependencies": {
         "autoprefixer": "^6.3.6",
