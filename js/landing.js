@@ -26,10 +26,30 @@ $(document).ready(function ($) {
         $(this).addClass('is-active');
     })
 
-    //show monthly pricing
-    $('#signup-btn').on("click", function () {
+    $('.sign-up-button-nav').on("click", function () {
         analytics.track("Clicked 'Get Started' in Nav", {
-            location: 'header',
+            location: 'header-nav',
+            type: 'button'
+        });
+    })
+
+    $('.sign-up-button-hero').on("click", function () {
+        analytics.track("Clicked 'Get Started' in Hero", {
+            location: 'hero',
+            type: 'button'
+        });
+    })
+
+    $('.get-started-coach-features-landing').on("click", function () {
+        analytics.track("Clicked 'Get Started'", {
+            location: 'landing-page-coaches-features',
+            type: 'button'
+        });
+    })
+
+    $('.see-pricing-button-landing-bottom').on("click", function () {
+        analytics.track("Clicked 'See Pricing'", {
+            location: 'landing-page-footer',
             type: 'button'
         });
     })
@@ -57,7 +77,7 @@ $(document).ready(function ($) {
     $('.sign-up-button-pricing').on("click", function () {
         var isPerMonth = $('.per-month').is(":visible");
         var pricingTier = $(this).attr('data-pricing-tier');
-        
+
         analytics.track("Clicked 'Sign Up'", {
             location: 'Pricing',
             planType: isPerMonth ? 'Monthly' : "Yearly",
