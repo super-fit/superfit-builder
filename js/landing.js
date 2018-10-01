@@ -31,7 +31,7 @@ $(document).ready(function($){
         $('.per-month').removeClass('is-hidden');
     })
     //show annual pricing
-    $('#show-annualy').on("click", function(){
+    $('#show-annually').on("click", function(){
         $('.per-month').addClass('is-hidden');
         $('.per-year').removeClass('is-hidden');
     })
