@@ -10,3 +10,6 @@ Get quick learnings from coaches, trainers, sports and fitness enthusiasts on a 
 - Presenting ballpark pricing plans for this software, if it were built
 - Tracking clicks and pricing plan preferences via FullStory and Segment.io
 - Present email sign up for users who opted to sign up through a pricing plan via MailChimp embedded form
+
+## Live Site
+This site is deployed free through Firebase Hosting on https://build.superfitapp.com/.
