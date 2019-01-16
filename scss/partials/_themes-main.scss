@@ -22,9 +22,9 @@ TABLE OF CONTENTS
 // $secondary: #383639;
 // $accent: #FFAD00;
 
-$primary: #ff8c2b;
-$secondary: #FFAD00;
-$accent: #383639;
+$primary: #FFC700;
+$secondary: #3085DB;
+$accent: #C1C9C3;
 
 /* ==========================================================================
 1. Theme gradient
@@ -54,13 +54,6 @@ $accent-shadow-to: rgba(127, 0, 255, 0.2);
 $accent-box-shadow:  0 14px 26px -12px $accent-shadow-from, 0 4px 23px 0px $base-shadow, 0 8px 10px -5px $accent-shadow-to !important;
 
 
-/* ==========================================================================
-3. Pageloader
-========================================================================== */
-.pageloader {
-    background-color: $secondary;
-    background: $hero-gradient !important;
-}
 
 /* ==========================================================================
 4. Theme specific Hero
